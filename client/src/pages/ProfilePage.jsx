@@ -30,7 +30,7 @@ const ProfilePage = () =>
     {
       const res = await updateProfile( { fullName: name, bio } );
       if ( res ) return navigate( "/" );
-      return alert( "somthing went wrong in update" );
+      return alert( "somthing went wrong in update in git" );
     }
 
     const reader = new FileReader();
